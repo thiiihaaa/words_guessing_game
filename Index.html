@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>こたえは何でしょう?</h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs"></div>
+            <div class="details">
+                <p class="hint">ヒント: <span></span></p>
+                <p class="guess-left">残りの推測: <span></span></p>
+                <p class="wrong-letter">不正解の文字: <span></span></p>
+            </div>
+            <button class="reset-btn">ゲームをリセットする</button>
+        </div>
+    </div>
+    
+    <script src="JS/words.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
